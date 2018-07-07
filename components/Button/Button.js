@@ -6,7 +6,12 @@ class Button {
     )}
 
     select() {
-        this.element.classList.toggle('Button--disappear');
+        // this.element.classList.toggle('Button--disappear');
+        if (this.element.style.display === "none")
+            this.element.style.display = "inline-block";
+        else {
+            this.element.style.display = "none";
+        }
     }
 
 }

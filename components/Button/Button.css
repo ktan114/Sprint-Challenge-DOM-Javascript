@@ -19,5 +19,5 @@
 }
 
 .Button--disappear {
-  visibility: hidden;
+  display: none;
 }
